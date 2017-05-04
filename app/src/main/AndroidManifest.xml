@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/police"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/police"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -18,7 +18,8 @@
         </activity>
 
         <activity android:name=".DisplayOfficersActivity"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity"
+            >
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -63,6 +64,22 @@
                 android:value=".DisplayOfficersActivity" />
         </activity>
 
+
+        <activity android:name=".DisplayInfosOfficerActivity"
+            android:parentActivityName=".DisplayOfficersActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayOfficersActivity" />
+        </activity>
+
+        <activity android:name=".DisplayInfosTeamActivity"
+            android:parentActivityName=".DisplayInfosTeamActivity" >
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayTeamsActivity" />
+        </activity>
 
 
 

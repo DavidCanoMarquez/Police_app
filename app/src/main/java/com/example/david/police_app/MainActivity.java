@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this, DisplayInterventionsActivity.class);
         startActivity(intent);
     }
+
+    /** Called when user taps one Officer button**/
+    public void showOfficer(View view) {
+        // Do something in response to button
+    }
 }

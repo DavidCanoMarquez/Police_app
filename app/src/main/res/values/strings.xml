@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Police_app</string>
+    <string name="app_name">PoliceVS</string>
     <string name="officers">OFFICERS</string>
     <string name="teams">TEAMS</string>
     <string name="interventions">INTERVENTIONS</string>
@@ -24,4 +24,8 @@
     <string name="other">Other</string>
     <string name="teamNumber">Team Number</string>
     <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="selectType">Please select a type</string>
+    <string name="selectTeam">Please select a team</string>
 </resources>
